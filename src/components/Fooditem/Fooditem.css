@@ -1,0 +1,86 @@
+.food-item{
+    width: 100%;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px grey;
+    transition: 0.5s;
+    animation: fadein 1s;
+}
+.food-item-image{
+    width: 100%;
+    border-radius: 15px ;
+}
+.food-item-info{
+    padding: 20px;
+
+}
+.food-item-reting{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.food-item-reting p{
+    font-size: 22px;
+    font-weight: 600;
+}
+.food-item-reting img{
+    width: 70px;
+}
+.food-item-price {
+    font-size: 24px;
+    font-weight: 600;
+    color: deeppink;
+    margin: 12px 0px;
+}
+.add{
+    height: 40px;
+    width: 40px;
+    padding: 6px;
+    background-color: aqua;
+    border: 1px solid black;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 16px;
+    right: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.addd{
+    height: 30px;
+    width: 30px;
+    padding: 3px;
+    background-color: greenyellow;
+    border: 1.5px solid black;
+    border-radius: 100%;
+}
+.remove{
+    height: 30px;
+    width: 30px;
+    padding: 3px;
+    background-color: red;
+    border: 1.5px solid black;
+    border-radius: 100%;
+}
+.food-item-image-cont{
+    position: relative;
+}
+.food-item-add{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    padding: 1px;
+    border-radius: 50px;
+    background-color: wheat;
+
+}
+.food-item-des{
+    font-size: 18px;
+    font-weight: 500;
+    color: gray;
+    margin: 12px 0px;
+
+}

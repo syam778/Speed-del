@@ -1,0 +1,65 @@
+.appdownload{
+    margin: auto auto;
+    margin-top: 100px;
+    font-size: max(3vw,18px);
+    text-align: center;
+    font-weight: 600;
+}
+.app-download-platfrom{
+    display: flex;
+    justify-content: center;
+    gap: max(2vw,12px);
+    margin-top: 40px;
+}
+.app-download-platfrom img{
+    width: max(5vw,140px);
+    max-width: 2000px;
+    transition: 0.5s;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.app-download-platfrom img:hover{
+    transform: scale(1.06);
+    border-radius: 40px;
+    
+}
+@media (max-width:320px){
+    .appdownload{
+        margin: auto auto;
+        margin-top: 100px;
+        font-size: max(3vw,18px);
+        text-align: center;
+        font-weight: 600;
+    }
+    .appdownload p{
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: -50px;
+        margin-left: -30px;
+    }
+    .app-download-platfrom{
+        display: flex;
+        justify-content: center;
+        gap: max(1vw,8px);
+        margin-top: 20px;
+        width: 100%;
+    }
+    .app-download-platfrom img{
+        width: max(5vw,200px);
+        max-width: 100px;
+        transition: 0.5s;
+        border-radius: 20px;
+        cursor: pointer;
+        
+    }
+    .app-download-platfrom :nth-child(1){
+        margin-left: -40px;
+    }
+    .app-download-platfrom img:hover{
+        transform: scale(1.08);
+        border-radius: 50px;
+        cursor: pointer;
+        
+    }
+
+}

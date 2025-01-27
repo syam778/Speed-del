@@ -1,0 +1,239 @@
+.card{
+    margin-top: 100px;
+}
+.card-items{
+    margin-top: 10px;
+
+}
+.card-items-title{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 0.5fr 1fr;
+    align-items: center;
+    color: red;
+    font-size: max(1vw,15px);
+}
+.card-items-item{
+    margin: 10px 0px;
+    color: black;
+}
+.card-items-item img{
+    width: 50px;
+}
+.card hr{
+    height: 1px;
+    background-color: gray;
+    border: none;
+}
+.cross{
+    font-size: 20px;
+    color: black;
+    
+}
+.card-bottom{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex: 1;
+}
+.card-total{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;   
+   }
+   .card-total-details{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
+.card-total hr{
+    margin: 10px 0px;
+}
+.btn{
+    border: none;
+    color: antiquewhite;
+    background-color: tomato;
+    width: max(15vw,200px);
+    padding: 12px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.card-reelo{
+    flex: 1;
+    margin-top: -30px;
+    
+
+}
+.main-card p{
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    gap: 2px;
+} 
+.card-reelo-input{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px;
+    background-color: red;
+}
+.card-reelocode-input input{
+    padding: 10px 26px;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 6px;
+    border: 1px solid red;
+}
+
+
+.main-card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 220px;
+    margin-left: 40px;
+}
+.bunn{
+    padding: 8px 18px;
+    background-color: red;
+    color: wheat;
+    border-radius: 8px;
+    border: 1px solid yellow;
+    margin-left: 10px;
+}
+@media (max-width:320px){
+    .card{
+        margin-top: 40px;
+        width: 100%;
+    }
+    .card-items{
+        margin-top: 10px;
+        width: 100%;
+    
+    }
+    .card-items-title{
+        display: grid;
+        grid-template-columns: 0.6fr 1fr 0.6fr 0.6fr 0.6fr 0.3fr;
+        align-items: center;
+        color: red;
+        font-size: max(0.5vw,8px);
+        width: 100%;
+        margin-left: -13px;
+        
+    }
+    .card-items-item{
+        margin: 6px 0px;
+        color: black;
+        margin-left: -13px;
+    }
+    .card-items-item img{
+        width: 25px;
+    }
+    .card hr{
+        height: 1px;
+        background-color: gray;
+        border: none;
+    }
+    .cross{
+        font-size: 10px;
+        color: black;
+        
+    }
+    .card-bottom{
+        margin-top: -10px;
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        flex: 1;
+        margin-left: -0px;
+        
+    }
+    .card-total{
+        flex: 1;
+        display: flex;
+        flex-direction: row;
+        gap: 13px; 
+        font-size: 14px;
+        font-weight: 600;
+        margin-top: 13px;  
+    }
+    .card-total h2{
+        font-size: 15px;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+
+   .card-total-details{
+        display: flex;
+        justify-content: space-between;
+        color: black;
+    }
+    .card-total-details p{
+        font-size: 9px;
+        font-weight: 600; 
+    }
+    .card-total hr{
+        margin: 8px 0px;
+    }
+    .btn{
+        border: none;
+        color: antiquewhite;
+        background-color: tomato;
+        padding: 6px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+    .card-reelo{
+        flex: 1;
+        margin-top: -30px;
+        
+    
+    }
+    .addp {
+        color: black;
+        font-size: 13px;
+        font-weight: 500;
+        gap: 2px;
+        margin-top: 50px;
+        margin-left: -40px;
+    } 
+    .card-reelo-input{
+        margin-top: 20px;
+        border-radius: 12px;
+        background-color: red;
+        margin-left: -40px;
+    }
+    .card-reelocode-input input{
+        padding: 4px 13px;
+        background-color: whitesmoke;
+        color: black;
+        border-radius: 6px;
+        border: 1px solid red;
+        margin-top: 5px;
+        margin-left: -40px;
+    }
+    
+    
+    
+    
+    .main-card{
+        display: grid;
+        grid-template-columns: max-content;
+        gap: 0px;
+        margin-left: 0px;
+        width: 100%;
+    }
+    
+    .bunn{
+        padding: 4px 7px;
+        background-color: red;
+        color: wheat;
+        border-radius: 8px;
+        border: 1px solid yellow;
+        margin-left: px;
+    }
+
+}

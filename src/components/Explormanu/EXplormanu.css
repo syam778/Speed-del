@@ -1,0 +1,204 @@
+.exploremanu-list{
+    display: flex;
+    margin: 20px 0px;
+    overflow-x: scroll;
+    gap: 20px;
+    text-align: end;
+    position: relative;
+
+}
+.explore-manulist-item img{
+    height: 80px;
+    width: 86px;
+    border-radius: 100%;
+    object-fit: fill;
+    border: 2.5px solid sandybrown;
+    background-color: tomato;
+    cursor: pointer;
+
+}
+.explore-manulist-item p{
+    margin-top: 6px;
+    margin-left: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 85px;
+    text-align: center;
+    position: relative;
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+.explore-manulist-item img:hover{
+    transition: all 1s ease;
+    background-color: red;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+
+.exploremanu-list::-webkit-scrollbar{
+    display: none;
+}
+.exploremanu hr{
+    margin: 10px opx;
+    height: 2px;
+    background-color: antiquewhite;
+    border: none;
+}
+@media (max-width:320px){
+    .exploremanu-list{
+        display: flex;
+        overflow-x: scroll;
+        gap: 10px;
+        text-align: end;
+        position: relative;
+        margin-left: -15px;
+    
+    }
+    .explore-manulist-item img{
+        height: 50px;
+        width: 56px;
+        border-radius: 100%;
+        object-fit: fill;
+        border: 2.5px solid sandybrown;
+        background-color: tomato;
+        cursor: pointer;
+    
+    }
+    .explore-manulist-item p{
+        margin-top: 6px;
+        margin-left: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 85px;
+        text-align: center;
+        position: relative;
+        color: black;
+        font-size: 13px;
+        font-weight: 600;
+        cursor: pointer;
+    
+    }
+    .explore-manulist-item img:hover{
+        transition: all 1s ease;
+        background-color: red;
+        padding: 5px;
+        border: 1px solid black;
+        cursor: pointer;
+    }
+    
+    
+    .exploremanu-list::-webkit-scrollbar{
+        display: none;
+    }
+    .exploremanu hr{
+        margin-left: -10px;
+        height: 2px;
+        background-color: rgb(237, 139, 10);
+        border: none;
+        width: 100%;
+    }
+    .exploremanu h1{
+        font-size: 20px;
+        font-weight: 600;
+        margin-left: -10px;
+    }
+    .exploremanu-text{
+        font-size: 8px;
+        font-weight: 400;
+        width: 100%;
+        margin-left: -10px;
+
+    }
+    hr{
+        margin-left: -30px;
+    }
+
+}
+
+/*
+.r img{
+    height: 80px;
+    width: 86px;
+    border-radius: 100%;
+    object-fit: fill;
+    border: 2.5px solid sandybrown;
+    background-color: tomato;
+    cursor: pointer;
+}
+.r img:hover{
+    transition: all 1s ease;
+    background-color: red;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.exploremanu-list{
+    display: flex;
+    margin: 20px 0px;
+    overflow-x: scroll;
+    gap: 30px;
+    text-align: end;
+    position: relative;
+
+}
+.exploremanu h1{
+    color: black;
+    font-size: 23px;
+    font-weight: 600;
+    max-width: 60%;
+    columns: red;
+}
+.exploremanu .exploremanu-text{
+    color: gray;
+    font-size: 17px;
+    font-weight: 600;
+
+}
+.r {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 00px 0px;
+    gap: 40.3px;
+    text-align: end;
+}
+.p{
+    margin-top: 82px;
+    margin-left: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 85px;
+    text-align: center;
+    position: relative;
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+.exploremanu-list::-webkit-scrollbar{
+    display: none;
+}
+.exploremanu hr{
+    margin: 10px opx;
+    height: 2px;
+    background-color: antiquewhite;
+    border: none;
+}
+.exploremanu-list .active{
+    border: 2px solid rebeccapurple;
+    padding: 2px;
+}
+.a{
+    border: 2px solid blue;
+    padding: 3px;
+}
+*/
