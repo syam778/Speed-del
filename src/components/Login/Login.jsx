@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './Login.css'
 import { manuu } from '../../assets/manu'
 import { useContext } from 'react'
-import { StoreContext } from '../../Context/StoreContext'
+import { StoreContext } from '../../context/Storecontext'
 //import { useEffect } from 'react'
 import axios from "axios"
 
@@ -15,6 +15,8 @@ const Login = ({setShowLogin}) => {
       email:"",
       password:""
     })
+    const [register,setRegister] = useState("")
+    
     const onChangeHandler = (event) =>{
       const name = event.target.name;
       const value = event.target.value;
@@ -23,6 +25,7 @@ const Login = ({setShowLogin}) => {
     }
     const onLogin = async (event)=>{
       event.preventDefault()
+      
       let newUrl = url;
       if (currentState==="login"){
         newUrl += "/api/user/login"
@@ -58,10 +61,9 @@ const Login = ({setShowLogin}) => {
             </div>
             <div className="login-inputs">
               {currentState==="Login"?<></>:
-            
-              <input name='name' onChange={onChangeHandler} value={data.name} type="text" placeholder='your name'  required/>}
-              <input name='email' onChange={onChangeHandler} value={data.email} type="email"placeholder='your email' required />
-              <input name='password' onChange={onChangeHandler} value={data.password} type="password"  placeholder='password' required/>
+            <input name='name' onChange={onChangeHandler} value={data.name} type="text" placeholder='your name'  required/>}
+            <input  name='email' onChange={onChangeHandler} value={data.email} type="email"placeholder='your email' required />
+            <input  name='password' onChange={onChangeHandler} value={data.password} type="password"  placeholder='password' required/>
             </div>
             <button type='submit' >{currentState==="sing up"?"Create account":"Login"}</button>
             <div className="login-condition">
@@ -80,3 +82,4 @@ const Login = ({setShowLogin}) => {
 }
 
 export default Login
+

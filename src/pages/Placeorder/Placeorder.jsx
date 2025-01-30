@@ -1,8 +1,9 @@
 import React, { useContext, useEffect, useState } from 'react'
 import './Placeorder.css'
-import { StoreContext } from '../../Context/StoreContext'
+import { StoreContext } from '../../context/Storecontext'
 import axios from 'axios'
 import { useNavigate } from 'react-router-dom'
+
 
 const Placeorder = () => {
   const {getTotalCardAmount,token,foodlist,cardItems,url} =useContext(StoreContext)
@@ -17,6 +18,7 @@ const Placeorder = () => {
     country:"",
     phone:""
   })
+  
 
   const onChangeHandler = (event) =>{
     const name =event.target.name;
@@ -91,26 +93,39 @@ const Placeorder = () => {
         <hr />
         <div className="card-total-details">
           <p>Subtotal</p>
-          <p>${getTotalCardAmount()}</p>
+          <p className='u'>${getTotalCardAmount()}</p>
         </div>
         <hr />
         <div className="card-total-details">
           <p>Delivary Fee</p>
-          <p>${getTotalCardAmount()===0?0:5}</p>
+          <p className='u'>${getTotalCardAmount()===0?0:5}</p>
         </div>
         <hr />
         <div className="card-total-details">
           <p>Total</p>
-          <p>${getTotalCardAmount()===0?0:getTotalCardAmount()+5}</p>
+          <p className='u'>${getTotalCardAmount()===0?0:getTotalCardAmount()+5}</p>
         </div>
         <button  type='submit' className='btn'>Proceed To Payment</button>
       
       </div>
+      <div className="pay">
+      <h3>Payment Method</h3>
+      <div className="payment ">
+        <input type="radio" name="cash" id="cash" /><p className='polt'>COD <b className='bolt'>(cash on Delivary)</b></p>
+      </div>
+      <div className="payment">
+        <input type="radio" name="card" id="card" /><p className='polt'>Online <b className='bolt'>(credit/debit)</b></p>
+      </div></div>
           </div>
       </form>
+      
 
     </div>
   )
 }
 
 export default Placeorder
+/*
+<input className="input"{...register("password", { required: { value: true, message: "job is reqired" }, minLength: { value: 5, message: "min leangth  of password" }, maxLength: { value: 12, message: "max length 12 only" } })} type="password" placeholder="password" /><br /><br />
+          {errors.password && <div className="red">{errors.password.message}</div>}
+  */        
