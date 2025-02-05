@@ -8,7 +8,26 @@ import { assets } from '../../../../admin/src/assets/assets';
 
 const Navbar = ({setShowLogin}) => {
   const [manu,setManu] = useState("Home");
-  const {getTotalCardAmount,token,setToken} = useContext(StoreContext);
+  const {getTotalCardAmount,token,setToken,search,setSearch} = useContext(StoreContext);
+  /*const {search,setSearch} =useState({
+    name:""
+  })
+
+
+  const onChangeHandler = (e) =>{
+    const name = e.target.name;
+    const value = e.target.value;
+    setSearch(data=>({...data,[name]:value}))
+
+  }
+    */
+  const onChangeHandler = (e) =>{
+    const name = e.target.name;
+    const value = e.target.value;
+    setSearch(data=>({...data,[name]:value}))
+
+  }
+  
   const navigate =useNavigate();
   const logout = ()=>{
     localStorage.removeItem("token");
@@ -26,7 +45,7 @@ const Navbar = ({setShowLogin}) => {
      <a href='#footer' onClick={()=>setManu("Contact-us")} className={manu ==="Contact-us"?"active":""}>Contact-us</a>
      </ul>
      <div className="navbar-seartch">
-      <img src="https://res.cloudinary.com/doeaksurq/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1734856266/magnifying-glass-icon-isolated-on-white-background-search-illustration-vector_mqthoi.jpg" alt="" />
+      <form action='search' className='sea' onSubmit={(e) =>e.preventDefault}><div className='seartch'><input type="text" onChange={(e) =>onChangeHandler} value={search} name='search' placeholder='Seartch Now' className='seartch-input sea' /><img className='seartch-icon' src="https://res.cloudinary.com/doeaksurq/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1734856266/magnifying-glass-icon-isolated-on-white-background-search-illustration-vector_mqthoi.jpg" alt="" /></div></form>
       <div className="navbar-basket">
       <Link to='/card'><img src="https://res.cloudinary.com/doeaksurq/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1734856263/istockphoto-1325904846-612x612_vmiely.jpg" alt="" /></Link>
         <div className={getTotalCardAmount()===0?"":"dot"}></div>
@@ -66,4 +85,7 @@ export default Navbar
         <button type='button' value={button}>sing in</button>
       </div>
     </div>
+
+
+    seartch =  src="https://res.cloudinary.com/doeaksurq/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1734856266/magnifying-glass-icon-isolated-on-white-background-search-illustration-vector_mqthoi.jpg"
     */

@@ -8,10 +8,11 @@ export const StoreContext = createContext(null)
 const StoreContextProvider = (props) => {
     const [cardItems, setCardItems] = useState({})
     const url = "http://localhost:4001"
+    //const url = "https://app.netlify.com/sites/backend-speed-del/overview"
     const [token, setToken] = useState("");
     const [foodlist, setFoodList] = useState([]);
-
-
+    const [search,setSearch] = useState("milk");
+    
 
     const addToCard = async (itemId) => {
         if (!cardItems[itemId]) {
@@ -56,11 +57,12 @@ const StoreContextProvider = (props) => {
             if (localStorage.getItem("token")) {
                 setToken(localStorage.getItem("token"));
                 await loadCardData(localStorage.getItem("token"));
+                (`${url}search =${search}`)
             }
         }
         loadData();
         
-    }, [])
+    }, [search])
 
 
     const contextValue = {
@@ -73,6 +75,8 @@ const StoreContextProvider = (props) => {
         url,
         token,
         setToken,
+        search,
+        setSearch
 
 
     }
@@ -87,6 +91,21 @@ export default StoreContextProvider
 
 
 /*
+
+const [search,setSearch] = useState("milk");
+    
+
+   const sdata = async (item) =>{
+    if (item ===item){
+        setSearch((prev)=>({...prev,[item]:1}))
+
+    }
+    else{
+        setSearch((prev) => ({...prev,[item]:prev[item]+1}))
+    }
+
+   }
+
 import { createContext, useState } from "react";
 import { foodlist } from "../assets/manu";
 export const StoreContext =createContext(null)

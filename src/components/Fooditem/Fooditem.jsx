@@ -3,7 +3,7 @@ import React, { useContext } from 'react'
 import './Fooditem.css'
 import { foodlist, manuu} from '../../assets/manu'
 import { StoreContext } from '../../context/Storecontext'
-const Fooditem = ({ id, name, price, image,description,rating,add,remove}) => {
+const Fooditem = ({ id, name, price, image,description,rating,add,remove,city,phone,firstName,street}) => {
     //const [itemCount, setItemCount] = useState(0) rating,add,remove
     const {cardItems,addToCard,removeFromCard,url} =useContext(StoreContext)
     return (
@@ -25,8 +25,15 @@ const Fooditem = ({ id, name, price, image,description,rating,add,remove}) => {
                     <p>{name}</p>
                     <img src={manuu.rating_starts} alt="" />
                 </div>
+                
                 <p className='food-item-des'>{description}</p>
                 <p className="food-item-price">₹{price}</p>
+                
+                {!cardItems[id]
+                ?<p onClick={()=>addToCard(id)} className='brand'><b>{firstName}</b></p>
+                :<span  className='store'><p>{city}</p><p>{street}</p><p>{phone}</p></span>
+                }
+                
             </div>
         </div>
 

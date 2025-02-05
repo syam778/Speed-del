@@ -8,7 +8,7 @@ import { useNavigate } from 'react-router-dom'
 const Placeorder = () => {
   const {getTotalCardAmount,token,foodlist,cardItems,url} =useContext(StoreContext)
   const [data,setData] = useState({
-    firseName:"",
+    firstName:"",
     lastName:"",
     email:"",
     street:"",
@@ -16,7 +16,9 @@ const Placeorder = () => {
     state:"",
     zipcode:"",
     country:"",
-    phone:""
+    phone:"",
+    age:"",
+    gender:""
   })
   
 
@@ -70,7 +72,7 @@ const Placeorder = () => {
           <p className="title">Delivery Informetion</p>
         <div className="order-info">
           
-          <input required name='firseName' onChange={onChangeHandler} value={data.firseName} type="text" placeholder='First name' />
+          <input required name='firstName' onChange={onChangeHandler} value={data.firstName} type="text" placeholder='First name' />
           <input required  name='lastName' onChange={onChangeHandler} value={data.lastName} type="text" placeholder='Last name' />
         </div>
         <input required type="email" name='email'onChange={onChangeHandler} value={data.email} placeholder='Email-address' />
@@ -84,6 +86,8 @@ const Placeorder = () => {
           <input required type="text" name='country' onChange={onChangeHandler} value={data.country} placeholder='Country' />
           </div>
           <input required type="number" name='phone' onChange={onChangeHandler} value={data.phone} placeholder='Pnone Number' />
+          <input required type="age" name='age' onChange={onChangeHandler} value={data.age} placeholder='age' />
+          <input required type="gender" name='gender' onChange={onChangeHandler} value={data.gender} placeholder='gender' />
         </div>
         <div className="place-order-right">
         <div className="card-bottom">

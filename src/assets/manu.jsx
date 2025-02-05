@@ -22,6 +22,9 @@ import play_store from './play_store.png'
 import cross_icon from './cross_icon.png'
 import ttt from './ttt.png'
 import orrder from './orrder.png'
+import glass from './glass.png'
+
+
 
 
 export const manuu ={
@@ -47,7 +50,10 @@ export const manuu ={
     app_store,
     cross_icon,
     orrder,
-    ttt
+    ttt,
+    glass
+    
+    
 }
 export const manulist =[
     {
@@ -133,7 +139,11 @@ export const foodlist =[
         category: "milk",
         rating: rating_starts,
         add: add_icon_white,
-        remove: remove_icon_red
+        remove: remove_icon_red,
+        firstName:"Cremeux",
+        city:"bangalore",
+        street:"btm",
+        phone:"7227963777"
         
     },
     {
@@ -145,7 +155,11 @@ export const foodlist =[
         category: "butter",
         rating: rating_starts,
         add: add_icon_white,
-        remove: remove_icon_red
+        remove: remove_icon_red,
+        firstName:"Cremeux",
+        city:"hydrabad",
+        street:"btm",
+        phone:"7227963777"
         
     },
     {
@@ -157,7 +171,11 @@ export const foodlist =[
         category: " buttermilk",
         rating: rating_starts,
         add: add_icon_white,
-        remove: remove_icon_red
+        remove: remove_icon_red,
+        firstName:"Cremeux",
+        city:"jaipur",
+        street:"btm",
+        phone:"7227963777"
        
     },
     {
@@ -169,7 +187,11 @@ export const foodlist =[
         category: "curd",
         rating: rating_starts,
         add: add_icon_white,
-        remove: remove_icon_red
+        remove: remove_icon_red,
+        firstName:"Cremeux",
+        city:"bangalore",
+        street:"btm",
+        phone:"7227963777"
         
     },
     {
@@ -181,7 +203,11 @@ export const foodlist =[
         category: "ghee",
         rating: rating_starts,
         add: add_icon_white,
-        remove: remove_icon_red
+        remove: remove_icon_red,
+        firstName:"Cremeux",
+        city:"jaipur",
+        street:"btm",
+        phone:"7227963777"
         
     },
     {
@@ -193,7 +219,11 @@ export const foodlist =[
         category: "paneer",
         rating: rating_starts,
         add: add_icon_white,
-        remove: remove_icon_red
+        remove: remove_icon_red,
+        firstName:"Cremeux",
+        city:"bangalore",
+        street:"btm",
+        phone:"7227963777"
     },
     {
         _id: "1",
@@ -204,7 +234,11 @@ export const foodlist =[
         category: "milk",
         rating: rating_starts,
         add: add_icon_white,
-        remove: remove_icon_red
+        remove: remove_icon_red,
+        firstName:"Cremeux",
+        city:"bangalore",
+        street:"btm",
+        phone:"7227963777"
         
     },
     {
@@ -216,7 +250,11 @@ export const foodlist =[
         category: "butter",
         rating: rating_starts,
         add: add_icon_white,
-        remove: remove_icon_red
+        remove: remove_icon_red,
+        firstName:"Cremeux",
+        city:"bangalore",
+        street:"btm",
+        phone:"7227963777"
         
     },
     {
@@ -228,7 +266,11 @@ export const foodlist =[
         category: " buttermilk",
         rating: rating_starts,
         add: add_icon_white,
-        remove: remove_icon_red
+        remove: remove_icon_red,
+        firstName:"Cremeux",
+        city:"bangalore",
+        street:"btm",
+        phone:"7227963777"
        
     },
     {
@@ -240,7 +282,11 @@ export const foodlist =[
         category: "curd",
         rating: rating_starts,
         add: add_icon_white,
-        remove: remove_icon_red
+        remove: remove_icon_red,
+        firstName:"Cremeux",
+        city:"bangalore",
+        street:"btm",
+        phone:"7227963777"
         
     },
     {
@@ -252,7 +298,11 @@ export const foodlist =[
         category: "ghee",
         rating: rating_starts,
         add: add_icon_white,
-        remove: remove_icon_red
+        remove: remove_icon_red,
+        firstName:"Cremeux",
+        city:"bangalore",
+        street:"btm",
+        phone:"7227963777"
         
     },
     {
@@ -264,7 +314,11 @@ export const foodlist =[
         category: "paneer",
         rating: rating_starts,
         add: add_icon_white,
-        remove: remove_icon_red
+        remove: remove_icon_red,
+        firstName:"Cremeux",
+        city:"bangalore",
+        street:"btm",
+        phone:"7227963777"
     },
     {
         _id: "1",
@@ -275,7 +329,11 @@ export const foodlist =[
         category: "milk",
         rating: rating_starts,
         add: add_icon_white,
-        remove: remove_icon_red
+        remove: remove_icon_red,
+        firstName:"Cremeux",
+        city:"bangalore",
+        street:"btm",
+        phone:"7227963777"
         
     },
     {
@@ -287,7 +345,11 @@ export const foodlist =[
         category: "butter",
         rating: rating_starts,
         add: add_icon_white,
-        remove: remove_icon_red
+        remove: remove_icon_red,
+        firstName:"Cremeux",
+        city:"bangalore",
+        street:"btm",
+        phone:"7227963777"
         
     },
     {
@@ -299,7 +361,11 @@ export const foodlist =[
         category: " buttermilk",
         rating: rating_starts,
         add: add_icon_white,
-        remove: remove_icon_red
+        remove: remove_icon_red,
+        firstName:"Cremeux",
+        city:"bangalore",
+        street:"btm",
+        phone:"7227963777"
        
     },
     {
@@ -311,7 +377,11 @@ export const foodlist =[
         category: "curd",
         rating: rating_starts,
         add: add_icon_white,
-        remove: remove_icon_red
+        remove: remove_icon_red,
+        firstName:"Cremeux",
+        city:"bangalore",
+        street:"btm",
+        phone:"7227963777"
         
     },
     {
@@ -323,7 +393,11 @@ export const foodlist =[
         category: "ghee",
         rating: rating_starts,
         add: add_icon_white,
-        remove: remove_icon_red
+        remove: remove_icon_red,
+        firstName:"Cremeux",
+        city:"bangalore",
+        street:"btm",
+        phone:"7227963777"
         
     },
     {
@@ -335,7 +409,11 @@ export const foodlist =[
         category: "paneer",
         rating: rating_starts,
         add: add_icon_white,
-        remove: remove_icon_red
+        remove: remove_icon_red,
+        firstName:"Cremeux",
+        city:"bangalore",
+        street:"btm",
+        phone:"7227963777"
     },
     {
         _id: "1",
@@ -346,7 +424,11 @@ export const foodlist =[
         category: "milk",
         rating: rating_starts,
         add: add_icon_white,
-        remove: remove_icon_red
+        remove: remove_icon_red,
+        firstName:"Cremeux",
+        city:"bangalore",
+        street:"btm",
+        phone:"7227963777"
         
     },
     {
@@ -358,7 +440,11 @@ export const foodlist =[
         category: "butter",
         rating: rating_starts,
         add: add_icon_white,
-        remove: remove_icon_red
+        remove: remove_icon_red,
+        firstName:"Cremeux",
+        city:"bangalore",
+        street:"btm",
+        phone:"7227963777"
         
     },
     {
@@ -370,7 +456,11 @@ export const foodlist =[
         category: " buttermilk",
         rating: rating_starts,
         add: add_icon_white,
-        remove: remove_icon_red
+        remove: remove_icon_red,
+        firstName:"Cremeux",
+        city:"bangalore",
+        street:"btm",
+        phone:"7227963777"
        
     },
     {
@@ -382,7 +472,11 @@ export const foodlist =[
         category: "curd",
         rating: rating_starts,
         add: add_icon_white,
-        remove: remove_icon_red
+        remove: remove_icon_red,
+        firstName:"Cremeux",
+        city:"bangalore",
+        street:"btm",
+        phone:"7227963777"
         
     },
     {
@@ -394,7 +488,11 @@ export const foodlist =[
         category: "ghee",
         rating: rating_starts,
         add: add_icon_white,
-        remove: remove_icon_red
+        remove: remove_icon_red,
+        firstName:"Cremeux",
+        city:"bangalore",
+        street:"btm",
+        phone:"7227963777"
         
     },
     {
@@ -406,7 +504,11 @@ export const foodlist =[
         category: "paneer",
         rating: rating_starts,
         add: add_icon_white,
-        remove: remove_icon_red
+        remove: remove_icon_red,
+        firstName:"Cremeux",
+        city:"bangalore",
+        street:"btm",
+        phone:"7227963777"
     },
     {
         _id: "1",
@@ -417,7 +519,11 @@ export const foodlist =[
         category: "milk",
         rating: rating_starts,
         add: add_icon_white,
-        remove: remove_icon_red
+        remove: remove_icon_red,
+        firstName:"Cremeux",
+        city:"bangalore",
+        street:"btm",
+        phone:"7227963777"
         
     },
     {
@@ -429,7 +535,11 @@ export const foodlist =[
         category: "butter",
         rating: rating_starts,
         add: add_icon_white,
-        remove: remove_icon_red
+        remove: remove_icon_red,
+        firstName:"Cremeux",
+        city:"bangalore",
+        street:"btm",
+        phone:"7227963777"
         
     },
     {
@@ -441,7 +551,11 @@ export const foodlist =[
         category: " buttermilk",
         rating: rating_starts,
         add: add_icon_white,
-        remove: remove_icon_red
+        remove: remove_icon_red,
+        firstName:"Cremeux",
+        city:"bangalore",
+        street:"btm",
+        phone:"7227963777"
        
     },
     {
@@ -453,7 +567,11 @@ export const foodlist =[
         category: "curd",
         rating: rating_starts,
         add: add_icon_white,
-        remove: remove_icon_red
+        remove: remove_icon_red,
+        firstName:"Cremeux",
+        city:"bangalore",
+        street:"btm",
+        phone:"7227963777"
         
     },
     {
@@ -465,7 +583,11 @@ export const foodlist =[
         category: "ghee",
         rating: rating_starts,
         add: add_icon_white,
-        remove: remove_icon_red
+        remove: remove_icon_red,
+        firstName:"Cremeux",
+        city:"bangalore",
+        street:"btm",
+        phone:"7227963777"
         
     },
     {
@@ -477,412 +599,14 @@ export const foodlist =[
         category: "paneer",
         rating: rating_starts,
         add: add_icon_white,
-        remove: remove_icon_red
+        remove: remove_icon_red,
+        firstName:"Cremeux",
+        city:"bangalore",
+        street:"btm",
+        phone:"7227963777"
     },
-    
-    
 ]
 /*export const star =[
-    {
-    rating: rating_starts,
-    add: add_icon_white,
-    remove: remove_icon_red
-    }
-]
-    */
-
-/*
-{
-        _id: "1",
-        name: "milk",
-        image: milk,
-        price: 30,
-        description:"milk product good for helth",
-        category: "milk",
-        rating: rating_starts,
-        add: add_icon_white,
-        remove: remove_icon_red
-        
-    },
-    {
-        _id: "2",
-        name: "butter",
-        image: butter,
-        price: 60,
-        description:"milk product good for helth",
-        category: "butter",
-        rating: rating_starts,
-        add: add_icon_white,
-        remove: remove_icon_red
-        
-    },
-    {
-        _id: "3",
-        name: " buttermilk",
-        image: buttermilk,
-        price: 12,
-        description:"milk product good for helth",
-        category: " buttermilk",
-        rating: rating_starts,
-        add: add_icon_white,
-        remove: remove_icon_red
-       
-    },
-    {
-        _id: "4",
-        name: "curd",
-        image: curd,
-        price: 34,
-        description:"milk product good for helth",
-        category: "curd",
-        rating: rating_starts,
-        add: add_icon_white,
-        remove: remove_icon_red
-        
-    },
-    {
-        _id: "5",
-        name: "ghee",
-        image: ghee,
-        price: 55,
-        description:"milk product good for helth",
-        category: "ghee",
-        rating: rating_starts,
-        add: add_icon_white,
-        remove: remove_icon_red
-        
-    },
-    {
-        _id: "6",
-        name: "paneer",
-        image: paneer,
-        price: 30,
-        description:"milk product good for helth",
-        category: "paneer",
-        rating: rating_starts,
-        add: add_icon_white,
-        remove: remove_icon_red
-    },
-    {
-        _id: "1",
-        name: "milk",
-        image: milk,
-        price: 30,
-        description:"milk product good for helth",
-        category: "milk",
-        rating: rating_starts,
-        add: add_icon_white,
-        remove: remove_icon_red
-        
-    },
-    {
-        _id: "2",
-        name: "butter",
-        image: butter,
-        price: 60,
-        description:"milk product good for helth",
-        category: "butter",
-        rating: rating_starts,
-        add: add_icon_white,
-        remove: remove_icon_red
-        
-    },
-    {
-        _id: "3",
-        name: " buttermilk",
-        image: buttermilk,
-        price: 12,
-        description:"milk product good for helth",
-        category: " buttermilk",
-        rating: rating_starts,
-        add: add_icon_white,
-        remove: remove_icon_red
-       
-    },
-    {
-        _id: "4",
-        name: "curd",
-        image: curd,
-        price: 34,
-        description:"milk product good for helth",
-        category: "curd",
-        rating: rating_starts,
-        add: add_icon_white,
-        remove: remove_icon_red
-        
-    },
-    {
-        _id: "5",
-        name: "ghee",
-        image: ghee,
-        price: 55,
-        description:"milk product good for helth",
-        category: "ghee",
-        rating: rating_starts,
-        add: add_icon_white,
-        remove: remove_icon_red
-        
-    },
-    {
-        _id: "6",
-        name: "paneer",
-        image: paneer,
-        price: 30,
-        description:"milk product good for helth",
-        category: "paneer",
-        rating: rating_starts,
-        add: add_icon_white,
-        remove: remove_icon_red
-    },
-    {
-        _id: "1",
-        name: "milk",
-        image: milk,
-        price: 30,
-        description:"milk product good for helth",
-        category: "milk",
-        rating: rating_starts,
-        add: add_icon_white,
-        remove: remove_icon_red
-        
-    },
-    {
-        _id: "2",
-        name: "butter",
-        image: butter,
-        price: 60,
-        description:"milk product good for helth",
-        category: "butter",
-        rating: rating_starts,
-        add: add_icon_white,
-        remove: remove_icon_red
-        
-    },
-    {
-        _id: "3",
-        name: " buttermilk",
-        image: buttermilk,
-        price: 12,
-        description:"milk product good for helth",
-        category: " buttermilk",
-        rating: rating_starts,
-        add: add_icon_white,
-        remove: remove_icon_red
-       
-    },
-    {
-        _id: "4",
-        name: "curd",
-        image: curd,
-        price: 34,
-        description:"milk product good for helth",
-        category: "curd",
-        rating: rating_starts,
-        add: add_icon_white,
-        remove: remove_icon_red
-        
-    },
-    {
-        _id: "5",
-        name: "ghee",
-        image: ghee,
-        price: 55,
-        description:"milk product good for helth",
-        category: "ghee",
-        rating: rating_starts,
-        add: add_icon_white,
-        remove: remove_icon_red
-        
-    },
-    {
-        _id: "6",
-        name: "paneer",
-        image: paneer,
-        price: 30,
-        description:"milk product good for helth",
-        category: "paneer",
-        rating: rating_starts,
-        add: add_icon_white,
-        remove: remove_icon_red
-    },
-    {
-        _id: "1",
-        name: "milk",
-        image: milk,
-        price: 30,
-        description:"milk product good for helth",
-        category: "milk",
-        rating: rating_starts,
-        add: add_icon_white,
-        remove: remove_icon_red
-        
-    },
-    {
-        _id: "2",
-        name: "butter",
-        image: butter,
-        price: 60,
-        description:"milk product good for helth",
-        category: "butter",
-        rating: rating_starts,
-        add: add_icon_white,
-        remove: remove_icon_red
-        
-    },
-    {
-        _id: "3",
-        name: " buttermilk",
-        image: buttermilk,
-        price: 12,
-        description:"milk product good for helth",
-        category: " buttermilk",
-        rating: rating_starts,
-        add: add_icon_white,
-        remove: remove_icon_red
-       
-    },
-    {
-        _id: "4",
-        name: "curd",
-        image: curd,
-        price: 34,
-        description:"milk product good for helth",
-        category: "curd",
-        rating: rating_starts,
-        add: add_icon_white,
-        remove: remove_icon_red
-        
-    },
-    {
-        _id: "5",
-        name: "ghee",
-        image: ghee,
-        price: 55,
-        description:"milk product good for helth",
-        category: "ghee",
-        rating: rating_starts,
-        add: add_icon_white,
-        remove: remove_icon_red
-        
-    },
-    {
-        _id: "6",
-        name: "paneer",
-        image: paneer,
-        price: 30,
-        description:"milk product good for helth",
-        category: "paneer",
-        rating: rating_starts,
-        add: add_icon_white,
-        remove: remove_icon_red
-    },
-    {
-        _id: "1",
-        name: "milk",
-        image: milk,
-        price: 30,
-        description:"milk product good for helth",
-        category: "milk",
-        rating: rating_starts,
-        add: add_icon_white,
-        remove: remove_icon_red
-        
-    },
-    {
-        _id: "2",
-        name: "butter",
-        image: butter,
-        price: 60,
-        description:"milk product good for helth",
-        category: "butter",
-        rating: rating_starts,
-        add: add_icon_white,
-        remove: remove_icon_red
-        
-    },
-    {
-        _id: "3",
-        name: " buttermilk",
-        image: buttermilk,
-        price: 12,
-        description:"milk product good for helth",
-        category: " buttermilk",
-        rating: rating_starts,
-        add: add_icon_white,
-        remove: remove_icon_red
-       
-    },
-    {
-        _id: "4",
-        name: "curd",
-        image: curd,
-        price: 34,
-        description:"milk product good for helth",
-        category: "curd",
-        rating: rating_starts,
-        add: add_icon_white,
-        remove: remove_icon_red
-        
-    },
-    {
-        _id: "5",
-        name: "ghee",
-        image: ghee,
-        price: 55,
-        description:"milk product good for helth",
-        category: "ghee",
-        rating: rating_starts,
-        add: add_icon_white,
-        remove: remove_icon_red
-        
-    },
-    {
-        _id: "6",
-        name: "paneer",
-        image: paneer,
-        price: 30,
-        description:"milk product good for helth",
-        category: "paneer",
-        rating: rating_starts,
-        add: add_icon_white,
-        remove: remove_icon_red
-    },
-*/
-/*
- {
-        _id: "1",
-        name: "milk",
-        image: milk,
-        price: 30,
-        description:"milk product good for helth",
-        category: "milk"
-        
-    },
-    {
-        _id: "1",
-        name: "milk",
-        image: curd,
-        price: 30,
-        description:"milk product good for helth",
-        category: "milk"
-        
-    },
-    {
-        _id: "1",
-        name: "milk",
-        image: paneer,
-        price: 30,
-        description:"milk product good for helth",
-        category: "milk"
-        
-    },
-    {
-        _id: "1",
-        name: "milk",
-        image: ghee,
-        price: 30,
-        description:"milk product good for helth",
-        category: "milk"
-        
-    },
+    
+    
     */

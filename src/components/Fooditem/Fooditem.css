@@ -84,3 +84,24 @@
     margin: 12px 0px;
 
 }
+.store{
+    display: flex;
+    gap: 10px;
+}
+.store :nth-child(1){
+    color: black;
+    font-size: 14px;
+}
+.store :nth-child(2){
+    color: gray;
+    font-size: 10px;
+}
+.store :nth-child(3){
+    color: blue;
+    font-size: 12px;
+}
+.brand b{
+    color: tomato;
+    font-size: 18px;
+
+}

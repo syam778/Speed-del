@@ -45,14 +45,14 @@
 
 }
 .my-order p:nth-child(1){
-    font-size: 10px;
+    font-size: 15px;
     font-weight: 500;
     color: gray;
     gap: 6px;
 
 }
 .my-order p:nth-child(2){
-    font-size: 15px;
+    font-size: 10px;
     font-weight: 500;
     color: gray;
     gap: 6px;
@@ -71,6 +71,10 @@
 .my-order p b{
     color: red;
 }
+.status{
+    margin-left: 30px;
+}
+
 
 @media (max-width:320px){
     .myorders h2{
@@ -88,7 +92,7 @@
     }
     .my-order{
         display: grid;
-        grid-template-columns: 0.1fr 0.1.4fr 0.2fr 0.1fr 0.1fr 0.1fr;
+        grid-template-columns: 0.1fr 0.14fr 0.1fr 0.1fr 0.1fr 0.1fr ;
         align-items: center;
         gap: 4px;
         font-size: 8px;
@@ -138,7 +142,7 @@
     
     }
     .my-order p:nth-child(2){
-        font-size: 6px;
+        font-size: 5px;
         font-weight: 600;
         color: gray;
         gap: 6px;
@@ -160,6 +164,12 @@
     .my-order p b{
         color: red;
     
+    }
+    .store-data{
+        margin-left: 20px;
+    }
+    .status{
+        margin-left: 30px;
     }
 
 }

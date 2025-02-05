@@ -46,6 +46,7 @@
     object-fit: fill;
     cursor: pointer;
     
+    
 }
 .navbar-basket img{
     width: 52px;
@@ -108,7 +109,33 @@
     color: red;
     
 }
-
+.seartch{
+    padding: 3px 6px;
+    border-radius: 20px;
+    margin-left: 0px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.seartch-input{
+    padding: 8px 10px;
+    border: 0.1px solid wheat;
+    border-radius: 20px;
+    margin-left: -2px;
+    border: 1.5px solid tomato;
+    color: black;
+    cursor: pointer;
+    
+    
+}
+.seartch img{
+    width: 30px;
+    height: 30px;
+    margin-left: -40px;
+    border-radius: 100%;
+    
+    
+}
 @media (max-width:1050px){
     .navbar h3{
         width: 140px;
@@ -250,6 +277,32 @@
     }
     .nav-profile-down li:hover{
         color: red;
+        
+    }
+    .seartch{
+        border-radius: 5px;
+        margin-left: 3px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+    .seartch-input{
+        padding: 3px 3px;
+        border: 1px solid tomato;
+        border-radius: 20px;
+        margin-left: -6px;
+        border: o.2px solid skyblue;
+        color: black;
+        font-size: 4px;
+        cursor: pointer;
+        
+    }
+    
+    .seartch img{
+        width: 11px;
+        height: 11px;
+        margin-left: -15px;
+        margin-top: 0px;
         
     }
     
