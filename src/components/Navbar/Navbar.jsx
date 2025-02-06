@@ -8,8 +8,8 @@ import { assets } from '../../../../admin/src/assets/assets';
 
 const Navbar = ({setShowLogin}) => {
   const [manu,setManu] = useState("Home");
-  const {getTotalCardAmount,token,setToken,search,setSearch} = useContext(StoreContext);
-  /*const {search,setSearch} =useState({
+  const {getTotalCardAmount,token,setToken,} = useContext(StoreContext);
+  const {search,setSearch} =useState({
     name:""
   })
 
@@ -20,13 +20,8 @@ const Navbar = ({setShowLogin}) => {
     setSearch(data=>({...data,[name]:value}))
 
   }
-    */
-  const onChangeHandler = (e) =>{
-    const name = e.target.name;
-    const value = e.target.value;
-    setSearch(data=>({...data,[name]:value}))
-
-  }
+    
+ 
   
   const navigate =useNavigate();
   const logout = ()=>{

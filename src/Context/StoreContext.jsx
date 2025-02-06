@@ -57,7 +57,7 @@ const StoreContextProvider = (props) => {
             if (localStorage.getItem("token")) {
                 setToken(localStorage.getItem("token"));
                 await loadCardData(localStorage.getItem("token"));
-                (`${url}search =${search}`)
+                (`${url}&search=${search}`)
             }
         }
         loadData();
