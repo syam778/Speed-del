@@ -3,7 +3,10 @@ import './Navbar.css'
 import {Link, useNavigate} from 'react-router-dom'
 //import { StoreContext} from '../../context/Storecontext.js';
 import { StoreContext } from '../../Context/StoreContext.jsx';
-import { assets } from '../../../../admin/src/assets/assets';
+//import { assets } from '../../../../admin/src/assets/assets';
+import { assets } from "/assets/assets";  // assuming assets are placed in the public folder
+
+
 
 
 
