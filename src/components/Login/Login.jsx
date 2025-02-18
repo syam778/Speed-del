@@ -2,7 +2,8 @@ import React, { useState } from 'react'
 import './Login.css'
 import { manuu } from '../../assets/manu'
 import { useContext } from 'react'
-import { StoreContext } from '../../context/Storecontext'
+//import { StoreContext } from '../../context/Storecontext'
+import { StoreContext } from '../../Context/StoreContext'
 //import { useEffect } from 'react'
 import axios from "axios"
 
