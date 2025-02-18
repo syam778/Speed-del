@@ -308,7 +308,7 @@
     
     
 }
-@media (min-width:375px){
+@media (max-width:375px){
     .navbar{
         display: flex;
         justify-content: space-between;
@@ -447,7 +447,7 @@
     }
 
 }
-@media (min-width:320px){
+@media (max-width:320px){
     .navbar{
         display: flex;
         justify-content: space-between;
@@ -586,7 +586,7 @@
     }
 
 }
-@media (min-width:425px){
+@media (max-width:425px){
     .navbar{
         display: flex;
         justify-content: space-between;

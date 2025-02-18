@@ -7,6 +7,8 @@
     margin-right: 14px;
     cursor: pointer;
 }
+
+
 .footer{
     background-color: rgb(83, 88, 88);
     color: rgb(237, 241, 245);
@@ -17,6 +19,8 @@
     padding: 20px 8vw;
     padding-top: 40px;
     margin-top: 60px;
+    width: 100%;
+    
 }
 
 .footer-cont{
@@ -61,7 +65,7 @@
     font-size: 30px;
     font-weight: 700;
 }
-@media (max-width:320px){
+@media (min-width:320px){
     .footer-s-icon img{
         width: 15px;
         height: 15px;
