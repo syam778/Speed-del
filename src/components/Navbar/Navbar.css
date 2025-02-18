@@ -308,3 +308,142 @@
     
     
 }
+@media (min-width:375px){
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 6px;
+        width: 100%;
+    }
+    .navbar h3{
+        width: 90px;
+        color: tomato;
+        font-weight: 700;
+        font-size: 18px;
+        margin-right: 12px;
+    }
+    .navbar-manu{
+        display: flex;
+        list-style: none;
+        gap: px;
+        color: black;
+        font-size: 11px;
+        cursor: pointer;
+        margin-left: 12px;
+    }
+    .navbar-seartch{
+        display: flex;
+        align-items: center;
+        gap: 50px;
+    }
+    .navbar-basket{
+        position: relative;
+    }
+    .navbar-seartch .dot{
+        position: absolute;
+        min-width: 9px;
+        min-height: 8px;
+        background-color: tomato;
+        border-radius: 10px;
+        top: -1px;
+        right: 5px;
+    }
+    .navbar-seartch img{
+        width: 45px;
+        height: 45px;
+        object-fit: fill;
+        cursor: pointer;
+        
+        
+    }
+    .navbar-basket img{
+        width: 52px;
+        height: 52px;
+        object-fit: fill;
+        cursor: pointer;
+    }
+    .navbar button{
+        background: transparent;
+        font-size: 16px;
+        color: gray;
+        border: 2px solid tomato;
+        padding: 10px 30px;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    .navbar button:hover{
+        background-color: beige;
+    }
+    .navbar .active{
+        padding-bottom: 3px;
+        border-bottom: 3px solid tomato;
+    
+    }
+    .navbar-profile{
+        position: relative;
+    }
+    .nav-profile-down{
+        position: absolute;
+        display: none;
+        right: 0;
+        z-index: 1;
+    }
+    .navbar-profile:hover .nav-profile-down{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: wheat;
+        padding: 12px 25px;
+        border: 1px solid black;
+        border-radius: 12px;
+        outline: 1px solid ghostwhite;
+        list-style: none;
+    }
+    .nav-profile-down li{
+        display:  flex;
+        align-items: center;
+        cursor: pointer;
+        gap: 10px;
+    }
+    .nav-profile-down img{
+        width: 30px;
+        border: 1.2px solid grey;
+        padding: 2px;
+        background-color: white;
+        border-radius: 6px;
+    }
+    .nav-profile-down li:hover{
+        color: red;
+        
+    }
+    .seartch{
+        padding: 4px 7px;
+        border-radius: 20px;
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+    .seartch-input{
+        padding: 8px 12px;
+        border: 0.1px solid wheat;
+        border-radius: 20px;
+        margin-left: -2px;
+        border: 1.5px solid tomato;
+        color: black;
+        cursor: pointer;
+        
+        
+    }
+    .seartch img{
+        width: 20px;
+        height: 20px;
+        margin-left: -30px;
+        border-radius: 100%;
+        
+        
+    }
+
+}

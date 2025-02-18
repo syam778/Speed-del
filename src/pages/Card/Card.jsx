@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 import './Card.css'
-import { StoreContext } from '../../context/Storecontext'
+//import { StoreContext } from '../../context/Storecontext'
+import { StoreContext } from '../../Context/StoreContext'
 import { useNavigate } from 'react-router-dom'
 
 const Card = () => {
