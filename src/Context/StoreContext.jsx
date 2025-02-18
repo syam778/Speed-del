@@ -7,7 +7,8 @@ export const StoreContext = createContext(null)
 
 const StoreContextProvider = (props) => {
     const [cardItems, setCardItems] = useState({})
-    const url = "http://localhost:4001"
+    //const url = "http://localhost:4001"
+    const url = "https://backend-18-0jhq.onrender.com"
     //const url = "https://app.netlify.com/sites/backend-speed-del/overview"
     const [token, setToken] = useState("");
     const [foodlist, setFoodList] = useState([]);
