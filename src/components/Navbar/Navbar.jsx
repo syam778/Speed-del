@@ -1,7 +1,8 @@
 import React, { useContext, useState } from 'react'
 import './Navbar.css'
 import {Link, useNavigate} from 'react-router-dom'
-import { StoreContext} from '../../context/Storecontext';
+//import { StoreContext} from '../../context/Storecontext.js';
+import { StoreContext } from '../../Context/StoreContext.jsx';
 import { assets } from '../../../../admin/src/assets/assets';
 
 
@@ -63,24 +64,3 @@ const Navbar = ({setShowLogin}) => {
 }
 
 export default Navbar
-
-/*
-<div className='navbar'>
-      <h3>Speed del</h3>
-      <div className="nav">
-        <>home</span>
-        <span>manu</span>
-        <div>mobile app</div>
-        <div>contact us</div>
-      </div>
-      <div className="nav1">
-        <img src="https://res.cloudinary.com/doeaksurq/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1734808574/search_icon_wqyrv8.png" alt="" />
-        <img src="https://res.cloudinary.com/doeaksurq/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1734808512/basket_icon_abprvy.png" alt="" />
-        <img src="https://res.cloudinary.com/doeaksurq/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1734808511/bag_icon_p9coxw.png" alt="" />
-        <button type='button' value={button}>sing in</button>
-      </div>
-    </div>
-
-
-    seartch =  src="https://res.cloudinary.com/doeaksurq/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1734856266/magnifying-glass-icon-isolated-on-white-background-search-illustration-vector_mqthoi.jpg"
-    */

@@ -3,6 +3,9 @@ import { createContext, useEffect, useState } from "react";
 //import { foodlist } from "../assets/manu";
 import axios from 'axios'  //{axios}
 export const StoreContext = createContext(null)
+//import { StoreContext } from "../../Context/StoreContext.";
+
+
 
 
 const StoreContextProvider = (props) => {
@@ -44,6 +47,8 @@ const StoreContextProvider = (props) => {
         }
         return totalAmount;
     }
+        
+          
     const fetchhFoodList = async () => {
         const response = await axios.get(url + "/api/food/list");
         setFoodList(response.data.data)
