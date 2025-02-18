@@ -606,6 +606,8 @@ export const foodlist =[
         phone:"7227963777"
     },
 ]
+
+
 /*export const star =[
     
     
