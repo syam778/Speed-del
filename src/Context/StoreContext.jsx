@@ -7,12 +7,13 @@ export const StoreContext = createContext(null)
 
 const StoreContextProvider = (props) => {
     const [cardItems, setCardItems] = useState({})
-    const url = "http://localhost:4001"
+    //const url = "http://localhost:4001"
+    const url = "https://backend-18-0jhq.onrender.com"
     //const url = "https://app.netlify.com/sites/backend-speed-del/overview"
     const [token, setToken] = useState("");
     const [foodlist, setFoodList] = useState([]);
-    const [search,setSearch] = useState("milk");
-    
+    const [search, setSearch] = useState("milk");
+
 
     const addToCard = async (itemId) => {
         if (!cardItems[itemId]) {
@@ -21,18 +22,18 @@ const StoreContextProvider = (props) => {
         else {
             setCardItems((prev) => ({ ...prev, [itemId]: prev[itemId] + 1 }))
         }
-        if (token){
-            await axios.post(url+"/api/card/add",{itemId},{headers:{token}})
+        if (token) {
+            await axios.post(url + "/api/card/add", { itemId }, { headers: { token } })
 
         }
     }
     const removeFromCard = async (itemId) => {
         setCardItems((prev) => ({ ...prev, [itemId]: prev[itemId] - 1 }));
-        if (token){
-            await axios.post(url+"/api/card/remove",{itemId},{headers:{token}})
+        if (token) {
+            await axios.post(url + "/api/card/remove", { itemId }, { headers: { token } })
         }
     }
-    const getTotalCardAmount =  () => {
+    const getTotalCardAmount = () => {
         let totalAmount = 0;
         for (const item in cardItems) {
             if (cardItems[item] > 0) {
@@ -44,13 +45,13 @@ const StoreContextProvider = (props) => {
         return totalAmount;
     }
     const fetchhFoodList = async () => {
-        const response = await axios.get(url+"/api/food/list");
+        const response = await axios.get(url + "/api/food/list");
         setFoodList(response.data.data)
     }
-   const loadCardData = async (token) =>{
-    const response =await axios.post(url+"/api/card/get",{},{headers:{token}});
-    setCardItems(response.data.cardData);
-   }
+    const loadCardData = async (token) => {
+        const response = await axios.post(url + "/api/card/get", {}, { headers: { token } });
+        setCardItems(response.data.cardData);
+    }
     useEffect(() => {
         async function loadData() {
             await fetchhFoodList();
@@ -61,7 +62,7 @@ const StoreContextProvider = (props) => {
             }
         }
         loadData();
-        
+
     }, [search])
 
 
